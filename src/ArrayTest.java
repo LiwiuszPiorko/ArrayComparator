@@ -11,7 +11,7 @@ public class ArrayTest {
         String wtab2 = Arrays.toString(tablica2);
         System.out.println(wtab2);
 
-        ArrayComparator check = new ArrayComparator(tablica1,tablica2);
+        ArrayComparator check = new ArrayComparator();
         boolean ArrayComparator = check.compareArrays(tablica1,tablica2);
 
         if (ArrayComparator) {

@@ -1,13 +1,5 @@
 public class ArrayComparator {
 
-    private int[] arrayX;
-    private int [] arrayY;
-
-    public ArrayComparator(int[] arrayX, int[] arrayY) {
-        this.arrayX = arrayX;
-        this.arrayY = arrayY;
-    }
-
     boolean compareArrays(int []arrayX, int[]arrayY) {
 
         for (int i = 0; i < arrayX.length; i++) {
