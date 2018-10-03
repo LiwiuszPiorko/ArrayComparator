@@ -8,7 +8,7 @@ public class ArrayComparator {
         this.arrayY = arrayY;
     }
 
-    boolean compareArrays() {
+    boolean compareArrays(int []arrayX, int[]arrayY) {
 
         for (int i = 0; i < arrayX.length; i++) {
             for (int j = 0; j < arrayY.length; j++) ;
