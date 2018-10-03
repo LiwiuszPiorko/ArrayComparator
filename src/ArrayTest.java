@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class ArrayTest {
 
     public static void main(String[] args) {
-        int[] tablica1 = {3, 6, 8, 8, 9, 10,11};
+        int[] tablica1 = {3, 7, 8, 8, 9, 10,11};
         int[] tablica2 = {4, 7, 8, 8, 9, 10,11};
 
         String wtab1 = Arrays.toString(tablica1);
